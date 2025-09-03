@@ -407,6 +407,10 @@ a {
   margin-top: 0;
 }
 
+p {
+  line-height: 1.8;
+}
+
 body {
   font-family: var(--font-family-body);
   font-weight: 400;
