@@ -376,6 +376,7 @@ h1,
 h2 {
   font-family: var(--font-family-heading);
   margin-bottom: 1rem;
+  letter-spacing: -0.05rem;
 }
 
 h3,
