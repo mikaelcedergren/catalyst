@@ -41,11 +41,14 @@ h2 {
     letter-spacing: -0.05rem;
 }
 
-h3,
-h4,
-h5 {
+h3 {
     font-family: var(--font-family-heading);
     margin-bottom: 0.5rem;
+}
+
+h4,
+h5 {
+    font-family: var(--font-family-body);
 }
 
 h1,
