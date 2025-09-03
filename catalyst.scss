@@ -48,10 +48,10 @@ a {
 }
 
 body {
-    font-family: variables.$font-family-body;
+    font-family: var(--font-family-body);
     font-weight: 400;
-    color: variables.$ink;
-    background-color: variables.$surface;
+    color: var(--ink);
+    background-color: var(--surface);
     line-height: 1.5;
 }
 
@@ -91,6 +91,6 @@ table {
 
 th,
 td {
-    padding: variables.$factor*2;
+    padding: var(--factor);
     text-align: left;
 }
