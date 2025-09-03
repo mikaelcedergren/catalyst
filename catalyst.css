@@ -344,7 +344,7 @@ template {
 :root {
   --font-family-body: "Libre Baskerville", "Times New Roman", Times, serif;
   --font-family-heading: "DM Serif Display", Helvetica, Arial, sans-serif;
-  --font-family-sans-serif: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+  --font-family-sans: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
   --line: 1px solid rgba(0, 0, 0, 0.08);
   --breakpoint: 650px;
   --surface: #fff;
