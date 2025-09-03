@@ -1,0 +1,37 @@
+@use 'normalize';
+@use 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+em,
+a {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+}
+
+body {
+    font-family: variables.$font-family-body;
+    font-weight: 400;
+    color: variables.$ink;
+    background-color: variables.$surface;
+    line-height: 1.5;
+}
