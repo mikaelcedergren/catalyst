@@ -529,6 +529,10 @@ template {
   margin-bottom: 0.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
