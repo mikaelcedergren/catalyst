@@ -372,11 +372,14 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  margin-bottom: 1rem;
+}
+
 h3,
 h4,
 h5 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 h1,
