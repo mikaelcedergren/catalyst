@@ -640,3 +640,10 @@ td {
   padding: var(--factor);
   text-align: left;
 }
+
+ingress {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
