@@ -596,6 +596,11 @@ h5 {
   font-family: var(--font-family-body);
 }
 
+pre {
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
 p {
   line-height: 1.8;
 }
