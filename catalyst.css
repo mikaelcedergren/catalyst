@@ -597,6 +597,7 @@ h5 {
 }
 
 pre {
+  font-size: 0.75rem;
   font-family: inherit;
   text-transform: uppercase;
 }
