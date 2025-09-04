@@ -657,3 +657,7 @@ ingress {
   line-height: 1.8;
   margin-bottom: 2rem;
 }
+
+q {
+  font-family: var(--font-family-heading);
+}
