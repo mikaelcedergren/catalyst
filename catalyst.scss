@@ -44,20 +44,21 @@ a {
     margin-top: 0;
 }
 
-h1 {
-    margin-bottom: 2rem;
-}
-
-h2 {
-    margin-bottom: 1rem;
-    line-height: 1.2;
-}
-
 h1,
 h2 {
     font-family: var(--font-family-heading);
     letter-spacing: -0.05rem;
     line-height: 1;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
 }
 
 h3 {
