@@ -21,36 +21,13 @@ body {
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: var(--font-size);
 }
 
 body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-}
-
-h1 {
-    margin-bottom: 2rem;
-}
-
-h2 {
-    margin-bottom: 1rem;
-}
-
-h1,
-h2 {
-    font-family: var(--font-family-heading);
-    letter-spacing: -0.05rem;
-}
-
-h3 {
-    font-family: var(--font-family-heading);
-    margin-bottom: 0.5rem;
-}
-
-h4,
-h5 {
-    font-family: var(--font-family-body);
 }
 
 h1,
@@ -65,6 +42,40 @@ a {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     margin-top: 0;
+}
+
+h1,
+h2 {
+    font-family: var(--font-family-heading);
+    letter-spacing: -0.05rem;
+    line-height: 1;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: var(--font-family-heading);
+    margin-bottom: 0.5rem;
+}
+
+h4,
+h5 {
+    font-family: var(--font-family-body);
+}
+
+pre {
+    font-size: 0.75rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 p {
@@ -113,4 +124,15 @@ th,
 td {
     padding: var(--factor);
     text-align: left;
+}
+
+ingress {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+q {
+    font-family: var(--font-family-heading);
 }
