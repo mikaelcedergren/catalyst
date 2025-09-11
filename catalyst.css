@@ -347,9 +347,9 @@ template {
   --font-family-sans: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
   --surface: #fff;
   --ink: #0a0a0a;
-  --opacity-high: rgba(black, 0.58);
-  --opacity-mid: rgba(black, 0.11);
-  --opacity-low: rgba(black, 0.04);
+  --opacity-high: rgba(0, 0, 0, 0.58);
+  --opacity-mid: rgba(0, 0, 0, 0.11);
+  --opacity-low: rgba(0, 0, 0, 0.04);
   --border-radius: 4px;
   --factor: 4px;
   --breakpoint: 650px;
