@@ -351,6 +351,9 @@ template {
   --ink: #1a1a1a;
   --border-radius: 4px;
   --factor: 4px;
+  --font-size: 18px;
+  --font-size-small: 13px;
+  --font-size-large: 21px;
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
